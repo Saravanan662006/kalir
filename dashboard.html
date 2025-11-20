@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Forest Command Center</title>
+  <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="global.css">
+</head>
+<body>
+  <header>
+    <h1>Forest Command Center</h1>
+    <nav>
+   <ul class="nav-icons">
+    <li><a href="dashboard.html"><i class="fas fa-map-marker-alt"></i> Overview</a></li>
+    <li><a href="alerts.html"><i class="fas fa-exclamation-triangle"></i> Alerts</a></li>
+    <li><a href="analytics.html"><i class="fas fa-chart-bar"></i> Analytics</a></li>
+    <li><a href="staff.html"><i class="fas fa-user"></i> Staff</a></li>
+    <li><a href="devices.html"><i class="fas fa-plus"></i> Devices</a></li>
+    </ul>
+    <div class="status">System Online • S. Kumar</div>
+    </nav>
+  </header>
+  <main class="grid">
+    <section class="intrusions">
+      <h2>Elephant Intrusions (Last 7 Days)</h2>
+      <!-- Incident blocks here -->
+    </section>
+    <section class="map">
+      <h2>Real-Time Detection Map</h2>
+      <div class="map-options">
+        <button>Satellite</button>
+        <button>Terrain</button>
+        <button>Live Feed</button>
+      </div>
+      <div class="map-placeholder">[Map Display Here]</div>
+      <div class="legend">
+        <ul id="prior">
+          <li><span class="dot red"></span> High Priority</li>
+          <li><span class="dot yellow"></span> Medium Priority</li>
+          <li><span class="dot green"></span> Low Priority</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+    <script src="script.js"></script>
+</body>
+</html>

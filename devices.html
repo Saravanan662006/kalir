@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Devices</title>
+  <link rel="stylesheet" href="devices.css">
+    <link rel="stylesheet" href="global.css">
+</head>
+<body>
+  <header>
+    <h1>Sensor & Network Monitoring</h1>
+    <nav>
+     <ul class="nav-icons">
+    <li><a href="dashboard.html"><i class="fas fa-map-marker-alt"></i> Overview</a></li>
+    <li><a href="alerts.html"><i class="fas fa-exclamation-triangle"></i> Alerts</a></li>
+    <li><a href="analytics.html"><i class="fas fa-chart-bar"></i> Analytics</a></li>
+    <li><a href="staff.html"><i class="fas fa-user"></i> Staff</a></li>
+    <li><a href="devices.html"><i class="fas fa-plus"></i> Devices</a></li>
+    </ul>
+    </nav>
+    </header>
+  <main class="grid">
+  <!-- Sensor Panels -->
+  <section class="sensors">
+    <h2>🛰️ Sensor Status</h2>
+
+    <div class="sensor offline">
+      <h3>DP-003 – Mobile Point</h3>
+      <p>Battery: 0%</p>
+      <p>Signal: 0%</p>
+      <p>Status: 🔴 Offline</p>
+      <p>⚠️ Connection lost • Battery depleted</p>
+      <button>⚙️ Configure</button>
+      <button>🧪 Test</button>
+    </div>
+
+    <div class="sensor online">
+      <h3>TC-067 – Central Forest</h3>
+      <p>Battery: 94%</p>
+      <p>Signal: 92%</p>
+      <p>Status: 🟢 Online</p>
+      <button>⚙️ Configure</button>
+      <button>🧪 Test</button>
+    </div>
+  </section>
+
+  <!-- Network Health -->
+  <section class="network">
+    <h2>📶 Network Health</h2>
+    <ul>
+      <li>GSM Coverage: <strong>88%</strong></li>
+      <li>LoRaWAN Network: <strong>92%</strong></li>
+      <li>Satellite Backup: <strong>75%</strong></li>
+    </ul>
+  </section>
+
+  <!-- Power Management -->
+  <section class="power">
+    <h2>🔋 Power Management</h2>
+    <ul>
+      <li>Solar Panels: <strong>Optimal</strong></li>
+      <li>Battery Banks: <strong>Charged</strong></li>
+      <li>Power Consumption: <strong>Normal</strong></li>
+      <li>Estimated Runtime: <strong>72 hours</strong> (without solar)</li>
+    </ul>
+  </section>
+</main>
+  <script src="script.js"></script>
+</body>
+</html>

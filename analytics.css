@@ -1,0 +1,46 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+section {
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.metrics ul, .hotspots ul, .seasonal ul, .reports ul {
+  list-style: none;
+  padding: 0;
+}
+
+.positive {
+  color: green;
+  font-weight: bold;
+}
+
+.high {
+  color: red;
+  font-weight: bold;
+}
+
+.medium {
+  color: orange;
+  font-weight: bold;
+}
+
+.low {
+  color: green;
+  font-weight: bold;
+}
+
+.reports button {
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

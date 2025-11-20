@@ -1,0 +1,52 @@
+.member {
+  border-left: 5px solid;
+  padding: 1rem;
+}
+.on-duty { border-color: orange; }
+.available { border-color: green; }
+.assignment.high { border-color: red; }
+.assignment.medium { border-color: orange; }
+.member {
+  background: white;
+  padding: 1rem;
+  border-left: 5px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 10px rgba(0,80,0,0.1);
+}
+
+.member.on-duty { border-color: orange; }
+.member.available { border-color: green; }
+
+.assignment {
+  background: white;
+  padding: 1rem;
+  border-left: 5px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 10px rgba(0,80,0,0.1);
+}
+
+.assignment.high { border-color: red; }
+.assignment.medium { border-color: orange; }
+
+.quick-assign form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.quick-assign input, .quick-assign select {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.quick-assign button {
+  background-color: #2e7d32;
+  color: white;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
